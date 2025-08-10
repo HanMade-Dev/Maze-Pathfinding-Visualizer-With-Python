@@ -1,5 +1,7 @@
 # Maze Pathfinding Visualizer (GUI)
 
+![Preview](preview.gif)
+
 Visualizer GUI interaktif untuk **pembelajaran & pencarian jalur tercepat pada maze**—dengan animasi realtime, timer durasi, dan panel kontrol yang rapi. Mendukung metode klasik (graph search) **dan** metode AI berbasis **Reinforcement Learning**.
 
 ## Fitur Utama
@@ -24,19 +26,3 @@ Visualizer GUI interaktif untuk **pembelajaran & pencarian jalur tercepat pada m
 ## Menjalankan
 ```bash
 python3 maze_visualizer.py
-```
-
-## Cara Pakai Singkat
-1. **Generate** maze acak (tombol *Buat Maze Acak*).  
-2. **Klik kanvas**: set **Start**, lalu klik lagi untuk **Finish** (otomatis toggle).  
-3. Pilih **Metode** pada dropdown.  
-4. (Opsional) Atur **Kecepatan**.  
-5. Klik **Mulai Visualisasi**.  
-6. Lihat **Durasi** dan **Node dieksplor** pada panel kanan.  
-7. **Clear Paths** untuk menghapus visualisasi tanpa mengubah maze; **Stop** untuk menghentikan proses.
-
-
-## Struktur & Kustomisasi
-- Seluruh aplikasi berbasis **tkinter** (tanpa dependensi eksternal).  
-- Warna & style tombol dapat disesuaikan pada bagian palet warna dan konfigurasi `ttk.Style`.
-
